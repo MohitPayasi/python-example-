@@ -1,0 +1,4 @@
+import textwrap
+string =input()
+word_lenth=int(input())
+print (textwrap.fill(string,word_lenth))

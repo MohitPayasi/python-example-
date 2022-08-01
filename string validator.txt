@@ -1,0 +1,8 @@
+
+if __name__ == '__main__':
+    m = input()
+    print(any(i.isalnum() for i in m) )
+    print(any(i.isalpha() for i in m) )
+    print(any(i.isdigit() for i in m) )
+    print(any(i.islower() for i in m) )
+    print(any(i.isupper() for i in m) )
