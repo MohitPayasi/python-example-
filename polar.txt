@@ -1,0 +1,10 @@
+
+a=int(input())
+b=int(input())
+cmp=complex(a,b)
+import cmath as cm
+phs_cm=cm.phase(complex(a,b))
+abs_cpm=abs(complex(a,b))
+
+print(abs_cpm)
+print(phs_cm)
